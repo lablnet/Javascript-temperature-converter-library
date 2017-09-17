@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <title>Temperature Convertor</title>
+     <meta charset="UTF-8" />
+     <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+     <center>
+          <h1 id="header">Temperature Convertor </h1>
+
+          <input type="number" name="value" placeholder="Enter number here..." id="number" />
+
+          <br /><br />
+
+          <select name="cc" id="type">
+               <option name="ctf" value="ctf"> Celsius To Fahrenheit </option>
+               <option name="ctk" value="ctk"> Celsius To Kelvin </option>
+               <option name="ftc" value="ftc"> Fahrenheit To Celsius</option>
+               <option name="ftk" value="ftk"> Fahrenheit To Kelvin </option>
+               <option name="ktc" value="ktc"> Kelvin To Celsius</option>
+               <option name="ktf" value="ktf"> Kelvin To Fahrenheit</option>
+          </select>
+
+          <br /><br />
+
+          <button onClick="convert()">Submit</button>
+
+          <hr />
+
+
+          <h1><div id="result"></div></h1>
+
+     </center>
+<script src='script.js'></script>
+</body>
+
+</html>
